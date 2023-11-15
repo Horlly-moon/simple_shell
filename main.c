@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * main - Entry point for the custom shell program.
+ *
+ * Return: Always 0 on successful execution.
+ */
 int main(void)
 {
 	char *line;
@@ -15,7 +20,8 @@ int main(void)
 		free(line);
 		free(args);
 	}
-		while (status);
+		while
+			(status);
 
 		return (0);
 }

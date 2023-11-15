@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * read_line - Read a line of input from the user.
+ *
+ * Return: The input line as a dynamically allocated string.
+ */
 char *read_line(void)
 {
 	char *line = NULL;
@@ -14,6 +19,12 @@ char *read_line(void)
 	return (line);
 }
 
+/**
+ * split_line - Split a line into an array of tokens.
+ * @line: The input line to be split.
+ *
+ * Return: An array of tokens (strings) from the input line.
+ */
 char **split_line(char *line)
 {
 	char *token;
